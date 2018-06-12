@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+  <Button
+      android:id="@+id/take_photo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/take_photo"
+      android:textColor="@android:color/white"
+      android:background="@drawable/button_bg_transparent"
+      android:paddingBottom="@dimen/margin_4"
+      android:paddingRight="@dimen/margin_16"
+      android:paddingLeft="@dimen/margin_16"
+      android:layout_marginBottom="@dimen/margin_8"/>
+    <Button
+        android:id="@+id/open_gallery"
+        android:paddingRight="@dimen/margin_8"
+        android:paddingLeft="@dimen/margin_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_gallery"
+        android:background="@drawable/button_bg_transparent"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
